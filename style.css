@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    list-style: none;
+}
+ul li a{
+    margin: 0px 24px;
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: gray;
+}
+header{
+    height: 32vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-bottom: 24px;
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .card{
+    width: 300px;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    margin-top: 24px;
+}
+.container .full-card{
+    margin-top: 24px;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+/* ........Service............ */
+table{
+    width: 70%;
+    margin: auto;
+}
+table, th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table th,td{
+    color: white;
+}
+table caption{
+    margin-bottom: 14px;
+    font-size: 24px;
+    font-weight: bold;
+}
+table tbody td:nth-child(1){
+    background-color: lightblue;
+}
+table thead th:nth-child(1){
+    background-color: lightblue;
+}
+table tbody td:nth-child(2){
+    background-color: rgb(98, 175, 201);
+}
+table thead th:nth-child(2){
+    background-color:  rgb(98, 175, 201);
+}
+table tbody td:nth-child(3){
+    background-color: rgb(84, 133, 150);
+}
+table thead th:nth-child(3){
+    background-color:  rgb(84, 133, 150);
+}
+table tbody td:nth-child(4){
+    background-color: rgb(33, 113, 139);
+}
+table thead th:nth-child(4){
+    background-color: rgb(33, 113, 139);
+}
